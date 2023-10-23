@@ -1,6 +1,10 @@
 # Travel Website
 
-A responsive travel website showcasing premium rooms, gallery images, and more. Explore the beauty of Greece and plan your dream journey.
+A travel website showcasing premium rooms, gallery images, and more. Explore the beauty of Greece and plan your dream journey.
+
+## Access the Website
+
+You can access the live website [here](https://nishanthan-k.github.io/Travel-Website/)
 
 ## Features
 
@@ -45,4 +49,7 @@ A responsive travel website showcasing premium rooms, gallery images, and more. 
 
 - Images sourced from Unsplash and Pixabay.
 
+## Note on Responsiveness
+
+Please note that the current version of this website may not be fully responsive on all devices. If you encounter any display issues, we recommend viewing it on a desktop or laptop for the best experience.
 
