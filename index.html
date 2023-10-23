@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Website</title>
+</head>
+<body onload="createBookingForm();addRoomDetails();subscribeNewsletter();premiumRooms();addGalleryImages();">
+
+    <section class="company-details">
+        <header class="head">
+            
+            <div class="logo">
+                <p id="logo-text"></p>
+            </div>
+
+            <div class="nav-bar">
+                <ul class="nav-links">
+                    <li id="nav-link">Home</li>
+                    <li id="nav-link">Room</li>
+                    <li id="nav-link">Premium</li>
+                    <li id="nav-link">Gallery</li>
+                    <li id="nav-link">About</li>
+                </ul>
+            </div>
+            
+        </header>
+
+        <div class="unique-quote">
+            <p id="unique-quote-text"></p>
+        </div>
+
+        <div class="company-quote">
+            <p id="company-quote-text" data-aos="fade-up" data-aos-duration="1200"></p>
+        </div>
+
+        <div class="explore-btn">
+            Explore Now
+        </div>
+
+        <div class="booking-form"></div>
+        
+    </section>
+
+    <!-- about us -->
+    <section class="about-us-section">
+        <div class="about-company">
+                <img src="./images/airplane.png" alt="airplane with globe" height="65" width="65">
+                <p id="about-us-text"></p>
+        </div>
+    </section>
+
+    <section class="hotel-details-section">
+        <div id="hotel-details-text">
+            <h1 id="hotel-text-1"></h1>
+            <p id="hotel-text-2"></p>
+        </div>
+    </section>
+
+    <section class="room-details-section">
+
+        <div class="room-details" data-aos="fade-up" data-aos-duration="1000"></div>
+
+    </section>
+
+    <section class="subscribe-to-newsletter">
+
+        <div class="subscribe-details">
+            <div id="company-quotes"></div>
+            <div id="subscribe"></div>
+        </div>
+
+    </section>
+
+    <section class="restaurant-section">
+
+        <div class="restaurant">
+
+        </div>
+
+    </section>
+
+    <section class="premium-room-section">
+
+        <div class="premium-room-text"></div>
+
+        <div class="premium-rooms">
+
+            <div id="premium-room-img">
+                <img src="./images/vertical.jpg" alt="" height="1000" width="400">
+            </div>
+
+            <div id="premium-room-details"></div>
+        </div>
+
+    </section>
+
+    <section class="gallery-section">
+
+        <div class="gallery-img" data-aos="fade-up" data-aos-duration="1000"></div>
+
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

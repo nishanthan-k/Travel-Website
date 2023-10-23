@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.company-details {
+    width: 100%;
+    height: 90vh;
+    background-image: url('./images/banner.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head {
+    height: 5rem;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 0 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.logo {
+    width: 13%;
+    height: 4rem;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logo-text {
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 600;
+}
+
+.nav-bar {
+    width: 70%;
+    height: 5rem;
+    align-items: center;
+}
+
+.nav-links {
+    width: 100%;
+    height: 2.2rem;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top:1.8em;
+    justify-content: space-evenly;
+    margin-left: 5rem;
+}
+
+#nav-link {
+    padding: 5px 10px;
+    transition: 0.3s;
+    
+}
+
+#nav-link:hover {
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.unique-quote {
+    width: max-content;
+    border-radius: 10px;
+    background-color: lightgray;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 8rem;
+}
+
+.company-quote {
+    width: 100%;
+    font-size: 85px;
+    font-weight: 700;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 3rem;
+}
+
+.explore-btn {
+    width: max-content;
+    padding: 16px 25px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    margin-top: 3rem;
+}
+
+.explore-btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.booking-form {
+    background-color: rgb(245,245,245, 0.7);
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    width: max-content;
+    padding: 10px 20px;
+    margin-top: 3rem;
+}
+
+#booking-form-details {
+    padding: 10px 20px;
+}
+
+.booking-form   input {
+    width: 100%;
+    height: 60%;
+}
+
+
+#book-now-btn {
+    width: max-content;
+    height: max-content;
+    margin-top: 1rem;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+#book-now-btn:hover {
+    cursor: pointer;
+}
+
+.about-company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+#about-us-text {
+    margin: 2rem 7rem;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.hotel-details-section {
+    margin-bottom: 2rem;
+}
+
+#hotel-details-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.room-details-section {
+    background-color: rgb(227, 223, 223);
+}
+
+.room-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    margin: 5rem;
+    /* padding: 10px; */
+}
+
+#room {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#roomImgDiv {
+    overflow: hidden;
+}
+
+#roomImg:hover {
+    transition: .3s;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+#know-more-btn {
+    width: 130px;
+    height: 55px;
+    font-size: 16px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+#know-more-btn:hover {
+    cursor: pointer;
+}
+
+.subscribe-details {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#company-quotes {
+    width: 30%;
+    padding: 10px;
+    margin-left: 20rem;
+}
+
+#company-logo {
+    width: 25%;
+}
+
+#email-input {
+    border: 1px solid black;
+    height: 6vh;
+    width: 120%;
+    padding: 5px;
+    color: rgb(143, 141, 141);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#subscribe {
+    margin-left: 15rem;
+}
+
+#subscribe-email-btn {
+    display: flex;
+    flex-direction: row;
+}
+
+#subscribe-btn {
+    background-color: black;
+    color: white;
+    height: 6vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.restaurant-section {
+    margin: 4rem;
+}
+
+.restaurant {
+    background-image: url(./images/restaurant.jpg);
+    background-size: 100 100;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#restaurant-div {
+    margin-top: 12.3%;
+    margin-right: 11.5%;
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}   
+
+#restaurant-div h1 {
+    font-size: 44px;
+}
+
+#explore-restaurant-btn {
+    width: 40%;
+    height: 7vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 17px;
+    font-size: 18px;
+}
+
+.premium-room-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.premium-room-text h1 {
+    font-size: 35px;
+}
+
+.premium-rooms {
+    margin-top: 2rem;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#premium-room-details {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7.7rem;
+}
+
+#premium-room-elements {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#explore-premium-btn {
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-section {
+    background-color: black;   
+}
+
+.gallery-img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 3rem 13rem;
+}
+
+#gallery-img-div {
+    margin: .3rem;
+}
+
+#gallery-img-div img:hover {
+    cursor: pointer;
+    opacity: 1 !important;
+}
